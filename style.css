@@ -1,0 +1,49 @@
+.navImage {
+    font-size: 2rem;
+}
+
+.navCustom {
+    background-color: indianred;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    filter: drop-shadow(0 0 5px black);
+}
+
+
+@media (min-width: 991.98px) {
+    .positionFix {
+        position: relative;
+        transform: translateX(45%);
+    }
+}
+
+.tagsBackground, .gameSearchBackground {
+    margin-top: 0;
+    min-height: 100vh;
+    font-size: 2rem;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.tagsBackground {
+    background-color: lightgrey;
+}
+
+.gameSearchBackground {
+    background-color: grey;
+}
+
+.tag {
+    background-color: darkred;
+    color: white;
+    border: 2px solid orangered;
+    min-height: 40px;
+    font-size: 1.5rem;
+    padding: 5px;
+    white-space: normal;
+    word-wrap: break-word;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
