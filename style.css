@@ -7,8 +7,13 @@
     margin-bottom: 0;
     padding-bottom: 0;
     filter: drop-shadow(0 0 5px black);
+    overflow: visible;
+    z-index: 10;
 }
 
+.dropdownCustom {
+    background-color: indianred !important;
+}
 
 @media (min-width: 992px) {
     .positionFix {
