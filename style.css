@@ -17,7 +17,7 @@
     }
 }
 
-.tagsBackground, .gameSearchBackground {
+.secondaryBackground, .primaryBackground {
     margin-top: 0;
     min-height: 100vh;
     font-size: 2rem;
@@ -25,16 +25,16 @@
 }
 
 @media (max-width: 768px) {
-    .tagsBackground {
+    .secondaryBackground {
         min-height: 0;
     }
 }
 
-.tagsBackground {
+.secondaryBackground {
     background-color: lightgrey;
 }
 
-.gameSearchBackground {
+.primaryBackground {
     background-color: grey;
 }
 
@@ -55,5 +55,5 @@
 }
 
 .titleSize {
-    font-size: calc(1rem + 1vw);;
+    font-size: calc(1rem + 1vw);
 }
