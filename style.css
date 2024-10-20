@@ -14,6 +14,21 @@
 .dropdownCustom {
     background-color: indianred !important;
 }
+.dropdownCustomItem.current {
+    background-color: black !important;
+    color: white !important;
+}
+
+.dropdownCustomItem:hover{
+    background-color: lightslategray !important;
+}
+.dropdownCustomItem:active{
+    background-color: black !important;
+}
+.dropdownCustomItem:focus{
+    background-color: black !important;
+    color: white!important;
+}
 
 @media (min-width: 992px) {
     .positionFix {
@@ -58,6 +73,12 @@
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+}
+.tag:hover{
+    background-color: firebrick;
+}
+.tag:active{
+    background-color: crimson;
 }
 
 .titleSize {

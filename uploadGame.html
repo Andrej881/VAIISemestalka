@@ -33,10 +33,10 @@
               User
             </a>
             <div class="dropdown-menu dropdown-menu-end dropdownCustom" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">User settings</a>
-              <a class="dropdown-item" href="uploadGame.html">Upload Game</a>
+              <a class="dropdown-item dropdownCustomItem" href="#">User settings</a>
+              <a class="dropdown-item dropdownCustomItem current" href="uploadGame.html">Upload Game</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Log out</a>
+              <a class="dropdown-item dropdownCustomItem" href="#">Log out</a>
             </div>
           </li>
         </ul>
@@ -58,9 +58,11 @@
             </div>
             <div class="col">
               Upload Image
-              <label for="imageInput" class="form-label formImage">
-                <i class="bi-arrow-up-circle-fill"></i>
-              </label>
+              <button class="formImage">
+                <label for="imageInput">
+                  <i class="bi-arrow-up-circle-fill"></i>
+                </label>
+              </button>
               <input class="hide" type="file" alt="" id="imageInput" accept="image/*">
             </div>
           </div>
@@ -75,14 +77,22 @@
           </div>
 
           <div class="col-12 uploadTags">
-            <div class="ms-1 col-3 formImage" id="addTag">
-              ADD TAGS
+            <div class="ms-1 col-3">
+              <button  id="addTag" class="formImage">ADD TAG</button>
             </div>
             <div class="row d-flex p-3 gap-3">
-              <div class="col-auto tag">TAG1</div>
-              <div class="col-auto tag">TAG</div>
-              <div class="col-auto tag">SinglePlayer</div>
-              <div class="col-auto tag">Platformer</div>
+              <div class="col-auto">
+                <button class="tag">2D Game</button>
+              </div>
+              <div class="col-auto">
+                <button class="tag">Platformer</button>
+              </div>
+              <div class="col-auto">
+                <button class="tag">Single Player</button>
+              </div>
+              <div class="col-auto">
+                <button class="tag">FPS</button>
+              </div>
             </div>
           </div>
 
@@ -91,9 +101,11 @@
             <input class="gameUpload input-group" type="file" id="fileInput">
           </div>
 
-          <div class="col-3 formImage d-flex align-self-center ms-auto">
-            Confirm
-            <i class="bi-check-circle-fill"></i>
+          <div class="col-3">
+            <button class="formImage d-flex align-self-center ms-auto">
+              Confirm
+              <i class="bi-check-circle-fill"></i>
+            </button>
           </div>
 
         </div>
