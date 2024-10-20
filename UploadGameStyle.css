@@ -38,7 +38,7 @@ img{
 }
 
 #addTag{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.85);
 }
 #addTag:active{
     background-color: white;

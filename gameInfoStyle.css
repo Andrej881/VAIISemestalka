@@ -24,3 +24,9 @@ button.gameInfo:hover{
 button.gameInfo:active{
     background-color: slategray;
 }
+
+.userImage {
+    image-rendering: pixelated;
+    height: calc(1.5rem + 1vw);
+    width: calc(1.5rem + 1vw);
+}
